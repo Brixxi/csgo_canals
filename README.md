@@ -5,9 +5,9 @@ Counter-Strike: Global Offensive - Aim Map
 
 #TODO
 
-1. fix nodraw canal arch
-2. exit of both cana lways
-3. add boxes, stairs or ramp?
+1. fix nodraw canal arch - done
+2. exit of both canal ways
+3. add boxes, stairs or ramp? - 80%
 4. edit textures
-5. add objects, floating boat etc..
+5. add objects, floating boat etc.. - 40%
 6. ...
