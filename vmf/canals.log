@@ -2743,3 +2743,601 @@ Level flags = 7c
 Total triangle count: 1945
 Writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
 1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.vmf
+Map revision 36
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (53362 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 137 texinfos to 66
+Reduced 11 texdatas to 8 (316 bytes to 176)
+Writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.prt
+ 327 portalclusters
+1051 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 244 visible clusters (0.00%)
+Total clusters visible: 49453
+Average clusters visible: 151
+Building PAS...
+Average clusters audible: 310
+visdatasize:29052  compressed from 31392
+writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+808 faces
+3 degenerate faces
+327503 square feet [47160484.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+805 patches before subdivision
+zero area child patch
+zero area child patch
+12741 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1844989, max 617
+transfer lists:  14.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                144/8192         1728/98304    ( 1.8%) 
+brushsides            1181/65536        9448/524288   ( 1.8%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1563/65536       18756/786432   ( 2.4%) 
+nodes                  675/65536       21600/2097152  ( 1.0%) 
+texinfos                66/12288        4752/884736   ( 0.5%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  808/65536       45248/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              254/65536       14224/3670016  ( 0.4%) 
+facebrushes             82/0             164/0        ( 0.0%) 
+facebrushlists         808/0            3232/0        ( 0.0%) 
+leaves                 677/65536       21664/2097152  ( 1.0%) 
+leaffaces             1113/65536        2226/131072   ( 1.7%) 
+leafbrushes            785/65536        1570/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4933/512000      19732/2048000  ( 1.0%) 
+edges                 2942/256000      11768/1024000  ( 1.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            171/32768        1710/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2838/65536        5676/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      714744/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29052/16777216 ( 0.2%) 
+entdata               [variable]       13831/393216   ( 3.5%) 
+LDR ambient table      677/65536        2708/262144   ( 1.0%) 
+HDR ambient table      677/65536        2708/262144   ( 1.0%) 
+LDR leaf ambient       327/65536        9156/1835008  ( 0.5%) 
+HDR leaf ambient       677/65536       18956/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149695/0        ( 0.0%) 
+physics               [variable]       53362/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2309
+Writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.vmf
+Map revision 36
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (53362 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 137 texinfos to 66
+Reduced 11 texdatas to 8 (316 bytes to 176)
+Writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.prt
+ 327 portalclusters
+1051 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 244 visible clusters (0.00%)
+Total clusters visible: 49453
+Average clusters visible: 151
+Building PAS...
+Average clusters audible: 310
+visdatasize:29052  compressed from 31392
+writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+808 faces
+3 degenerate faces
+327503 square feet [47160484.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+805 patches before subdivision
+zero area child patch
+zero area child patch
+12741 patches after subdivision
+0 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1844989, max 617
+transfer lists:  14.1 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(0, 0, 0)
+Build Patch/Sample Hash Table(s).....Done<0.0026 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                144/8192         1728/98304    ( 1.8%) 
+brushsides            1181/65536        9448/524288   ( 1.8%) 
+planes                 868/65536       17360/1310720  ( 1.3%) 
+vertexes              1563/65536       18756/786432   ( 2.4%) 
+nodes                  675/65536       21600/2097152  ( 1.0%) 
+texinfos                66/12288        4752/884736   ( 0.5%) 
+texdata                  8/2048          256/65536    ( 0.4%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  808/65536       45248/3670016  ( 1.2%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              254/65536       14224/3670016  ( 0.4%) 
+facebrushes             82/0             164/0        ( 0.0%) 
+facebrushlists         808/0            3232/0        ( 0.0%) 
+leaves                 677/65536       21664/2097152  ( 1.0%) 
+leaffaces             1113/65536        2226/131072   ( 1.7%) 
+leafbrushes            785/65536        1570/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             4933/512000      19732/2048000  ( 1.0%) 
+edges                 2942/256000      11768/1024000  ( 1.1%) 
+LDR worldlights          0/8192            0/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            171/32768        1710/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2838/65536        5676/131072   ( 4.3%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      714744/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       29052/16777216 ( 0.2%) 
+entdata               [variable]       13831/393216   ( 3.5%) 
+LDR ambient table      677/65536        2708/262144   ( 1.0%) 
+HDR ambient table      677/65536        2708/262144   ( 1.0%) 
+LDR leaf ambient       327/65536        9156/1835008  ( 0.5%) 
+HDR leaf ambient       677/65536       18956/1835008  ( 1.0%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149695/0        ( 0.0%) 
+physics               [variable]       53362/4194304  ( 1.3%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2309
+Writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+1 second elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.vmf
+Map revision 37
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57738 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 159 texinfos to 76
+Reduced 13 texdatas to 10 (358 bytes to 218)
+Writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.prt
+ 333 portalclusters
+1069 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 257 visible clusters (0.00%)
+Total clusters visible: 50948
+Average clusters visible: 152
+Building PAS...
+Average clusters audible: 331
+visdatasize:30179  compressed from 31968
+writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+839 faces
+3 degenerate faces
+327961 square feet [47226476.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+836 patches before subdivision
+zero area child patch
+zero area child patch
+12832 patches after subdivision
+4 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1866654, max 617
+transfer lists:  14.2 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(1280, 1153, 11080)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(587, 525, 5005)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(279, 243, 2306)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(130, 110, 1039)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(62, 50, 470)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(29, 23, 212)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(14, 10, 96)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(7, 5, 43)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(3, 2, 19)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(2, 1, 9)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(1, 0, 4)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(0, 0, 2)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                157/8192         1884/98304    ( 1.9%) 
+brushsides            1259/65536       10072/524288   ( 1.9%) 
+planes                 892/65536       17840/1310720  ( 1.4%) 
+vertexes              1635/65536       19620/786432   ( 2.5%) 
+nodes                  695/65536       22240/2097152  ( 1.1%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  839/65536       46984/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              275/65536       15400/3670016  ( 0.4%) 
+facebrushes             78/0             156/0        ( 0.0%) 
+facebrushlists         839/0            3356/0        ( 0.0%) 
+leaves                 697/65536       22304/2097152  ( 1.1%) 
+leaffaces             1143/65536        2286/131072   ( 1.7%) 
+leafbrushes            804/65536        1608/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5165/512000      20660/2048000  ( 1.0%) 
+edges                 3119/256000      12476/1024000  ( 1.2%) 
+LDR worldlights          4/8192          400/819200   ( 0.0%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            176/32768        1760/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2910/65536        5820/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      721940/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       30179/16777216 ( 0.2%) 
+entdata               [variable]       14485/393216   ( 3.7%) 
+LDR ambient table      697/65536        2788/262144   ( 1.1%) 
+HDR ambient table      697/65536        2788/262144   ( 1.1%) 
+LDR leaf ambient      1483/65536       41524/1835008  ( 2.3%) 
+HDR leaf ambient       697/65536       19516/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149695/0        ( 0.0%) 
+physics               [variable]       57738/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2395
+Writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+2 seconds elapsed
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Counter-Strike Global Offensive\csgo\materials
+Loading D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.vmf
+Map revision 39
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Processing areas...done (0)
+Building Faces...error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+error: material DEV/DEV_WATER3_BENEATH doesn't have a $bottommaterial
+done (0)
+Chop Details...done (0)
+Find Visible Detail Sides...
+Merged 48 detail faces...done (0)
+Merging details...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.prt...Building visibility clusters...
+done (0)
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (57986 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Water found with no water_lod_control entity, creating a default one.
+Compacting texture/material tables...
+Reduced 159 texinfos to 76
+Reduced 13 texdatas to 10 (358 bytes to 218)
+Writing D:\Dokumente\CS_GO_SDK\Mapping\Maps\csgo_canals\vmf\canals.bsp
+0 seconds elapsed
+
+
+
+6 threads
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+reading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.prt
+ 333 portalclusters
+1064 numportals
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10Optimized: 250 visible clusters (0.00%)
+Total clusters visible: 50651
+Average clusters visible: 152
+Building PAS...
+Average clusters audible: 331
+visdatasize:30142  compressed from 31968
+writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+1 second elapsed
+
+
+
+[Reading texlights from 'lights.rad']
+[17 texlights parsed from 'lights.rad']
+
+Loading d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+842 faces
+3 degenerate faces
+327993 square feet [47231028.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+839 patches before subdivision
+zero area child patch
+zero area child patch
+12835 patches after subdivision
+16 direct lights
+0...1...2...3...4...5...6...7...8...9...100...1...2...3...4...5...6...7...8...9...10transfers 1869441, max 617
+transfer lists:  14.3 megs
+0...1...2...3...4...5...6...7...8...9...10	Bounce #1 added RGB(5197, 5184, 45961)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #2 added RGB(2402, 2341, 20323)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #3 added RGB(1159, 1081, 9211)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #4 added RGB(552, 490, 4109)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #5 added RGB(267, 223, 1847)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #6 added RGB(129, 101, 829)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #7 added RGB(63, 46, 373)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #8 added RGB(31, 21, 168)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #9 added RGB(15, 9, 76)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #10 added RGB(8, 4, 34)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #11 added RGB(4, 2, 16)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #12 added RGB(2, 1, 7)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #13 added RGB(1, 0, 3)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #14 added RGB(0, 0, 1)
+0...1...2...3...4...5...6...7...8...9...10	Bounce #15 added RGB(0, 0, 1)
+Build Patch/Sample Hash Table(s).....Done<0.0024 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                158/8192         1896/98304    ( 1.9%) 
+brushsides            1265/65536       10120/524288   ( 1.9%) 
+planes                 890/65536       17800/1310720  ( 1.4%) 
+vertexes              1634/65536       19608/786432   ( 2.5%) 
+nodes                  698/65536       22336/2097152  ( 1.1%) 
+texinfos                76/12288        5472/884736   ( 0.6%) 
+texdata                 10/2048          320/65536    ( 0.5%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_multiblend          0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                  842/65536       47152/3670016  ( 1.3%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              276/65536       15456/3670016  ( 0.4%) 
+facebrushes             78/0             156/0        ( 0.0%) 
+facebrushlists         842/0            3368/0        ( 0.0%) 
+leaves                 700/65536       22400/2097152  ( 1.1%) 
+leaffaces             1147/65536        2294/131072   ( 1.8%) 
+leafbrushes            807/65536        1614/131072   ( 1.2%) 
+areas                    2/1024           16/8192     ( 0.2%) 
+surfedges             5179/512000      20716/2048000  ( 1.0%) 
+edges                 3126/256000      12504/1024000  ( 1.2%) 
+LDR worldlights         16/8192         1600/819200   ( 0.2%) 
+HDR worldlights          0/8192            0/819200   ( 0.0%) 
+leafwaterdata            2/32768          24/393216   ( 0.0%) 
+waterstrips            176/32768        1760/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2910/65536        5820/131072   ( 4.4%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/1024            0/360448   ( 0.0%) 
+LDR lightdata         [variable]      722400/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]       30142/16777216 ( 0.2%) 
+entdata               [variable]       18403/393216   ( 4.7%) 
+LDR ambient table      700/65536        2800/262144   ( 1.1%) 
+HDR ambient table      700/65536        2800/262144   ( 1.1%) 
+LDR leaf ambient      2003/65536       56084/1835008  ( 3.1%) 
+HDR leaf ambient       700/65536       19600/1835008  ( 1.1%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      149695/0        ( 0.0%) 
+physics               [variable]       57986/4194304  ( 1.4%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 7c
+
+Total triangle count: 2399
+Writing d:\dokumente\cs_go_sdk\mapping\maps\csgo_canals\vmf\canals.bsp
+2 seconds elapsed
