@@ -10,4 +10,6 @@ Counter-Strike: Global Offensive - Aim Map
 3. add boxes, stairs or ramp? //80%
 4. edit textures
 5. add objects, floating boat etc.. //40%
-6. work on spawn points, add weapon spawner //45%
+6. work on spawn points, add weapon spawner //70%
+7. nodraw fix outside from spawn
+8. prob_dynamic to static
